@@ -18,10 +18,10 @@
 
 
 
-	MinimapBorderTop:Hide()
-	MinimapZoomIn:Hide()
-	MinimapZoomOut:Hide()
-	MiniMapWorldMapButton:Hide()
+	MinimapBorderTop:Show()
+	MinimapZoomIn:Show()
+	MinimapZoomOut:Show()
+	MiniMapWorldMapButton:Show()
 	GameTimeFrame:Hide()
 	GameTimeFrame:UnregisterAllEvents()
 	GameTimeFrame.Show = kill
